@@ -5,5 +5,181 @@
 body{
     font-family: "iranyekanwebregular",Arial , Helvetica , sans-serif;
 }
+.header{
+    background: url("../img/Vector 1.png");
+    background-size:100% 100% ;
+    width: 40%;
+    height: 630px;
+    margin: 10px auto;
+}
+.header .header-one{
+
+}
+.header .header-one .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
+}
+.header .header-one .title .img-ol{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.header .header-one .title .img-ol img{
+width: 20px;
+    height: 10px;
+    object-fit: cover;
+}
+.header .header-one .title .img-texts{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header .header-one .form-log{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 80px;
+}
+.header .header-one .form-log h3{
+font-weight: bold;
+    color: #ffffff;
+
+}
+.header .header-one .form-log .forms{
+    margin-top: 30px;
+    margin-right: 41px;
+}
+.header .header-one .form-log .forms .input-user{
+display: flex;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+width: 100%;
+    margin: 20px;
+}
+.header .header-one .form-log .forms .input-user .check-line{
+    background: green;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s linear;
+}
+.header .header-one .form-log .forms .input-user .check-line.active{
+    opacity: 1;
+    visibility: visible;
+}
+.header .header-one .form-log .forms .input-user .check-close{
+    background: red;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s linear;
+}
+.header .header-one .form-log .forms .input-user .check-close.active{
+    opacity: 1;
+    visibility: visible;
+}
+.header .header-one .form-log .forms .input-user img{
+width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.header .header-one .form-log .forms .input-user #user_input{
+outline: none;
+    border: none;
+}
+.header .header-one .form-log .forms .input-pass{
+    display: flex;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px;
+}
+.header .header-one .form-log .forms .input-pass .check-line{
+    background: green;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s linear;
+}
+.header .header-one .form-log .forms .input-pass .check-line.active{
+    opacity: 1;
+    visibility: visible;
+}
+.header .header-one .form-log .forms .input-pass .check-close{
+    background: red;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s linear;
+}
+.header .header-one .form-log .forms .input-pass .check-close.active{
+    opacity: 1;
+    visibility: visible;
+}
+.header .header-one .form-log .forms .input-pass img{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.header .header-one .form-log .forms .input-pass #pass-input{
+    outline: none;
+    border: none;
+}
+.header .header-one .form-log .forms .msg{
+
+}
+.header .header-one .form-log .forms .button-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 30px;
+    width: 100%;
+    background: #6A74CF;
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 50px;
+}
+.header  .linkes{
+    width: 100%;
+    text-align: center;
+}
+.header  .linkes .link {
+    color: white;
+    border-bottom: none;
+    text-decoration: none;
+
+}
